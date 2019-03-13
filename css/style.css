@@ -35,16 +35,15 @@
     display: flex;
     font-family: Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 19px;
+    font-size: 1.3rem;
     text-align: right;
 }
 
 .section-main-title {
     font-family: Helvetica, sans-serif;
     color: #000000;
-    font-size: 59px;
+    font-size: 3.8rem;
     font-weight: 400;
-    line-height: 59px;
     text-align: left;
     margin-top: 9rem;
 }
@@ -52,9 +51,8 @@
 .section-information-title {
     font-family: Helvetica, sans-serif;
     color: #000000;
-    font-size: 24px;
-    line-height: 59px;
-    text-align: left;
+    font-size: 1.5rem;
+    margin: 2.3rem 0 1rem 0;
 }
 
 .section-information-inputs {
@@ -68,7 +66,7 @@
     padding-left: 0.55rem;
     width: 20rem;
     height: 2rem;
-    border: 1px solid black;
+    border: 0.0625rem solid black;
 }
 
 .send-button {
