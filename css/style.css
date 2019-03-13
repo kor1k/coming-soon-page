@@ -13,8 +13,12 @@
     src: url("../fonts/Helvetica-bold.otf") format("opentype");
 }
 
+html {
+    font-size: 10px;
+}
+
 .container {
-    width: 75rem;
+    max-width: 128rem;
     margin: 0 auto;
 }
 
@@ -36,29 +40,30 @@
     display: flex;
     font-family: Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     text-align: right;
 }
 
 .section-main-title {
     font-family: Helvetica, sans-serif;
     color: #000000;
-    font-size: 3.8rem;
+    font-size: 5.9rem;
     font-weight: 400;
     text-align: left;
-    margin-top: 9rem;
+    /*margin-top: 9rem;*/
+    margin: 9rem 0 5rem 0;
 }
 
 .section-main-title > p {
     display: inline-block;
-    width: 30rem;
+    width: 45rem;
 }
 
 .section-information-title {
     font-family: Helvetica, sans-serif;
     color: #000000;
-    font-size: 1.5rem;
-    margin: 2.3rem 0 1rem 0;
+    font-size: 2.4rem;
+    margin: 2.3rem 0 2rem 0;
 }
 
 .section-information-inputs {
@@ -70,9 +75,10 @@
 .input-phone-form, .input-email-form {
     margin: 0.8rem 0 0.6rem 0;
     padding-left: 0.55rem;
-    width: 20rem;
-    height: 2rem;
+    width: 33rem;
+    height: 4.1rem;
     border: 0.0625rem solid black;
+    font-size: 1.4rem;
 }
 
 .send-button {
@@ -88,16 +94,16 @@
     background: linear-gradient(to left, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     font-family: Helvetica, sans-serif;
     border: 0;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #ffffff;
-    width: 8rem;
-    height: 2.5rem;
+    width: 16rem;
+    height: 5.2rem;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 1.7rem;
 }
 
 /*Modal window*/
-
 .overlay {
     display: none;
     position: fixed;
@@ -105,7 +111,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .overlay.show {
@@ -113,9 +119,9 @@
 }
 
 #modal {
-    width: 400px;
-    height: 200px;
-    background-color: rgba(12, 123, 000, 0.9);
+    width: 32rem;
+    height: 35rem;
+    background: linear-gradient(to left, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     margin: 0 auto;
     padding: 10px;
     border-radius: 6px;
