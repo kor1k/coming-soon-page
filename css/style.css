@@ -74,20 +74,16 @@
     margin-top: 0.6em;
 }
 
-.send-button > button {
-    width: 8rem;
-    height: 2.5rem;
+.send-button > input {
     background: -webkit-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: -o-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: -ms-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: -moz-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: linear-gradient(to left, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
-    border: 0;
-}
-
-.send-button-text {
-    text-transform: uppercase;
     font-family: Helvetica, sans-serif;
+    border: 0;
+    font-size: 1.2rem;
     color: #ffffff;
-    font-size: 1.1rem;
+    width: 8rem;
+    height: 2.5rem;
 }
