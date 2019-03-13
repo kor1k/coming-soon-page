@@ -48,6 +48,11 @@
     margin-top: 9rem;
 }
 
+.section-main-title > p {
+    display: inline-block;
+    width: 30rem;
+}
+
 .section-information-title {
     font-family: Helvetica, sans-serif;
     color: #000000;
