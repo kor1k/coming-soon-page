@@ -74,7 +74,7 @@ html {
 
 .input-phone-form, .input-email-form {
     margin: 0.8rem 0 0.6rem 0;
-    padding-left: 0.55rem;
+    padding-left: 1.2rem;
     width: 33rem;
     height: 4.1rem;
     border: 0.0625rem solid black;
@@ -103,7 +103,6 @@ html {
     margin-top: 1.7rem;
 }
 
-/*Modal window*/
 .overlay {
     display: none;
     position: fixed;
@@ -119,12 +118,12 @@ html {
 }
 
 #modal {
-    width: 32rem;
-    height: 35rem;
+    width: 45rem;
+    height: 15rem;
     background: linear-gradient(to left, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     margin: 0 auto;
-    padding: 10px;
-    border-radius: 6px;
+    padding: 1rem;
+    border-radius: 0.6rem;
     position: absolute;
     z-index: 99;
     top: 50%;
@@ -133,20 +132,39 @@ html {
     display: none;
 }
 
+.modal-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.close {
+    font-size: 2.5rem;
+}
+
 #modal.open {
-    display: block;
+    display: flex;
 }
 
 .close {
     text-decoration: none;
     position: absolute;
-    top: 5px;
-    right: 7px;
-    color: #00aaaa;
+    top: 1rem;
+    right: 1rem;
+    color: black;
+    cursor: pointer;
 }
 
 #form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.modal-form-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.2rem;
+    color: #ffffff;
 }

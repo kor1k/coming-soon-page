@@ -24,6 +24,7 @@ $(function () {
             $('.overlay').removeClass('show');
             $('#modal').removeClass('open');
         });
+
         return false;
     });
 });
