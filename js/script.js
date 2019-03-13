@@ -1,11 +1,13 @@
 $(function () {
-    $("#contact .button").click(function (e) {
-        e.preventdefault();
+    $("#submit").submit(function (e) {
+        e.preventDefault();
         let data = {
-            name: $("#form_phone").val(),
-            email: $("#form_email").val(),
-            // message: $("#msg_text").val()
+            message: `
+            Phone: ${$("#form_phone").val()}
+            Email: ${$("#form_email").val()}
+            `
         };
+        console.log(data.message);
         $.ajax({
             type: "POST",
             url: "../php/email.php",

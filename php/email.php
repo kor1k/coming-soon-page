@@ -1,8 +1,7 @@
 <?php
 if($_POST){
-    $name = $_POST['form_phone'];
-    $email = $_POST['form_email'];
+    $message = $_POST['message'];
 //send email
-    mail("yamnyk.vlog@gmail.com", "Feedback form" , $name);
+    mail("koortttt@gmail.com", "Feedback form" , $message);
 }
 ?>

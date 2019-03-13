@@ -80,7 +80,7 @@
     margin-top: 0.6em;
 }
 
-.send-button > input {
+.input-send-button {
     background: -webkit-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: -o-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
     background: -ms-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
@@ -95,7 +95,3 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-
-/*.send-button:active > input {*/
-    /*border: 2px solid orange;*/
-/*}*/
