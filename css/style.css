@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticaBlack;
+    src: url("../fonts/Helvetica-black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url("../fonts/Helvetica-bold.otf") format("opentype");
+}
+
+.container {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+.bg-holder {
+    background: url("../img/bg_moveup.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-top {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-top-phone-number {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.section-main-title {
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    font-size: 3.8rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 9rem;
+}
+
+.section-main-title > p {
+    display: inline-block;
+    width: 30rem;
+}
+
+.section-information-title {
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 2.3rem 0 1rem 0;
+}
+
+.section-information-inputs {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.input-phone-form, .input-email-form {
+    margin: 0.8rem 0 0.6rem 0;
+    padding-left: 0.55rem;
+    width: 20rem;
+    height: 2rem;
+    border: 0.0625rem solid black;
+}
+
+.send-button {
+    text-align: left;
+    margin-top: 0.6em;
+}
+
+.input-send-button {
+    background: -webkit-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
+    background: -o-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
+    background: -ms-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
+    background: -moz-linear-gradient(right, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
+    background: linear-gradient(to left, rgb(228, 97, 56) 0%, rgb(228, 85, 77) 100%);
+    font-family: Helvetica, sans-serif;
+    border: 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+    width: 8rem;
+    height: 2.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
