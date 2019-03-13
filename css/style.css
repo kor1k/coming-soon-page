@@ -95,3 +95,55 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/*Modal window*/
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay.show {
+    display: block;
+}
+
+#modal {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(12, 123, 000, 0.9);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#modal.open {
+    display: block;
+}
+
+.close {
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    color: #00aaaa;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Modal window*/

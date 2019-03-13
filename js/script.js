@@ -7,7 +7,7 @@ $(function () {
             Email: ${$("#form_email").val()}
             `
         };
-        console.log(data.message);
+
         $.ajax({
             type: "POST",
             url: "../php/email.php",
@@ -16,6 +16,23 @@ $(function () {
                 $('.success').fadeIn(1000);
             }
         });
+
+        $('#modal').addClass('open');
+        $('.overlay').addClass('show');
+
+        $("#form_phone").val('');
+        $("#form_email").val('');
+
+        $('.close, .overlay').click(function () {
+            $('.overlay').removeClass('show')
+            $('#modal').removeClass('open');
+        });
+
+
         return false;
     });
 });
+
+// Modal window Start
+
+// Modal window End
