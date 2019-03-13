@@ -21,15 +21,18 @@
         </div>
         <div class="section-information">
             <div class="section-information-title">Leave a request and we will contact you</div>
-            <div class="section-information-inputs">
-                <input form="???" type="text" placeholder="phone" class="input-phone-form" id="input-phone-form">
-                <input form="???" type="text" placeholder="e-mail" class="input-email-form" id="input-email-form">
-            </div>
-        </div>
-        <div class="send-button">
-            <input type="submit" value="Send"/>
+            <form class="section-information-inputs">
+                <input class="input-phone-form" name="form_phone" id="form_phone" type="tel" placeholder="phone">
+                <input class="input-email-form" name="form_email" id="form_email" type="email" placeholder="e-mail">
+                <input id="submit" name="submit" type="submit" value="Send"/>
+            </form>
         </div>
     </div>
 </div>
+<script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

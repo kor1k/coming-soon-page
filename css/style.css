@@ -20,6 +20,7 @@
 
 .bg-holder {
     background: url("../img/bg_moveup.png");
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
@@ -91,4 +92,10 @@
     color: #ffffff;
     width: 8rem;
     height: 2.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
 }
+
+/*.send-button:active > input {*/
+    /*border: 2px solid orange;*/
+/*}*/
