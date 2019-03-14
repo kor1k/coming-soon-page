@@ -17,16 +17,31 @@
             <div class="nav-top-phone-number">+380 (97) 912 80 08</div>
         </div>
         <div class="section-main">
-            <div class="section-main-title"><p>You dream job is coming soon!</p></div>
+            <div class="section-main-title">
+                <p class="section-main-title-text">You dream job is coming soon!</p>
+            </div>
         </div>
         <div class="section-information">
             <div class="section-information-title">Leave a request and we will contact you</div>
             <form id="submit" class="section-information-inputs">
-                <input class="input-phone-form" name="form_phone" id="form_phone" type="tel" placeholder="phone">
-                <input class="input-email-form" name="form_email" id="form_email" type="email" placeholder="e-mail">
+                <input required class="input-phone-form" name="form_phone" id="form_phone" type="tel"
+                       pattern="^[0-9]*$"
+                       minlength="10"
+                       maxlength="10"
+                       placeholder="phone">
+                <input required class="input-email-form" name="form_email" id="form_email" type="email"
+                       placeholder="e-mail">
                 <input class="input-send-button" name="submit" type="submit" value="Send"/>
             </form>
         </div>
+    </div>
+    <div class="overlay"></div>
+    <div id="modal" class="modal-wrapper">
+        <span class="close">&#x2715;</span>
+        <p class="modal-form-text">
+            Your credentials have been successfully sent. We will contact you
+            shortly.
+        </p>
     </div>
 </div>
 <script
