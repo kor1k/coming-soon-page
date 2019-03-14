@@ -168,3 +168,73 @@ html {
     font-size: 2.2rem;
     color: #ffffff;
 }
+
+/*@media screen and (max-width: 120rem) {*/
+
+/*}*/
+
+@media screen and (max-width: 76.8rem) {
+    .container {
+        margin: 0 auto;
+        width: 70rem;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .container {
+        margin: 0 auto;
+        width: 48rem;
+    }
+
+    .nav-top-phone-number {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 41rem) {
+    .container {
+        margin: 0 auto;
+        width: 48rem;
+    }
+
+    .nav-top-phone-number {
+        color: #000;
+    }
+}
+
+
+@media screen and (max-width: 32rem) {
+
+    .container {
+        margin: 0 auto;
+        width: 32rem;
+    }
+
+    .nav-top-logo {
+        width: 13rem;
+        /*height: 5rem;*/
+    }
+
+    .nav-top-phone-number {
+        color: black;
+        font-size: 1.7rem;
+    }
+
+    .section-main-title {
+        font-size: 4rem;
+    }
+
+    .section-main-title > p {
+        display: inline-block;
+        width: 32rem;
+    }
+
+    .section-information-inputs > input {
+        width: 25rem;
+    }
+
+    .section-information-inputs > input:last-child {
+        width: 17rem;
+        font-size: 1.8rem;
+    }
+}
