@@ -14,7 +14,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 .container {
@@ -174,10 +174,6 @@ html {
 /*}*/
 
 @media screen and (max-width: 76.8rem) {
-    html {
-        font-size: 10px;
-    }
-
     .container {
         margin: 0 auto;
         width: 70rem;
@@ -185,10 +181,6 @@ html {
 }
 
 @media screen and (max-width: 48rem) {
-    html {
-        font-size: 10px;
-    }
-
     .container {
         margin: 0 auto;
         width: 48rem;
@@ -201,10 +193,6 @@ html {
 
 @media screen and (max-width: 41rem) {
     /* for test on my phone */
-    html {
-        font-size: 10px;
-    }
-
     .container {
         margin: 0 auto;
         width: 48rem;
@@ -217,11 +205,6 @@ html {
 
 
 @media screen and (max-width: 32rem) {
-
-    html {
-        font-size: 10px;
-    }
-
     .container {
         margin: 0 auto;
         width: 32rem;
